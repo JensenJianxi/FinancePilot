@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://financepilot.example.com/sitemap.xml

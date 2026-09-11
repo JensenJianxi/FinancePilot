@@ -1,0 +1,20 @@
+{
+  "name": "@finance-pilot/cdk",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json --noEmit",
+    "cdk": "cdk",
+    "lint": "eslint \"src/**/*.ts\"",
+    "test": "node --import tsx --test src/**/*.test.ts",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "^2.0.0",
+    "constructs": "^10.0.0"
+  },
+  "devDependencies": {
+    "aws-cdk": "^2.0.0"
+  }
+}

@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Build and test output
+dist/
+coverage/
+cdk.out/
+*.zip
+*.log
+
+# Local environment and authentication state
+.env
+.env.*
+!.env.example
+*.local
+browser-auth-state.json
+browser-dom-snapshot.txt
+scripts/financepilot-auth-smoke.mjs
+
+# Local scratch files
+node-repl-test.txt
+.DS_Store
+
+# Editor and operating-system files
+.idea/
+.vscode/
+*.swp
