@@ -7,10 +7,7 @@ serverless services.
 
 ## Live Website
 
-[Open FinancePilot](https://d3q58tmz0hee61.cloudfront.net)
-
-The planned custom domain is `financepilothq.com`. Until its DNS and certificate
-are connected, the CloudFront address above is the live website.
+[Open FinancePilot](https://financepilothq.com)
 
 ## How To Use FinancePilot
 
